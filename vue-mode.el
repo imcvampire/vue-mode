@@ -35,7 +35,7 @@
   "Group for vue-mode"
   :prefix "vue-"
   :group 'languages
-  :link '(url-link :tag "Github" "https://github.com/CodeFalling/vue-mode")
+  :link '(url-link :tag "Github" "https://github.com/imcvampire/vue-mode")
   :link '(emacs-commentary-link :tag "Commentary" "vue-mode"))
 
 (defcustom vue-modes
@@ -45,10 +45,10 @@
     (:type template :name pug :mode pug-mode)
     (:type template :name slm :mode slim-mode)
     (:type template :name slim :mode slim-mode)
-    (:type script :name nil :mode js-mode)
-    (:type script :name js :mode js-mode)
-    (:type script :name es6 :mode js-mode)
-    (:type script :name babel :mode js-mode)
+    (:type script :name nil :mode react-mode)
+    (:type script :name js :mode react-mode)
+    (:type script :name es6 :mode react-mode)
+    (:type script :name babel :mode react-mode)
     (:type script :name coffee :mode coffee-mode)
     (:type script :name ts :mode typescript-mode)
     (:type script :name typescript :mode typescript-mode)
